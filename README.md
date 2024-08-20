@@ -29,7 +29,7 @@ Clone this repository to your local machine:
 
 sh
 Copy code
-git clone https://github.com/yourusername/object-detection-mobilenet-ssd.git
+git clone https://github.com/Mohammed-Faazil-16/Objection_Detection.git
 cd object-detection-mobilenet-ssd
 Download Model Files
 
