@@ -1,7 +1,5 @@
-Here's a sample README file content for your project. This README provides an overview of the project, instructions for setup, usage, and any dependencies.
-
 Object Detection with MobileNet SSD
-This project demonstrates object detection using the MobileNet SSD model with OpenCV. The model identifies and labels objects within an image based on a pre-trained network.
+This project demonstrates object detection using the MobileNet SSD model with OpenCV. The MobileNet SSD model is utilized to identify and label objects within an image based on a pre-trained network.
 
 Table of Contents
 Project Overview
@@ -10,7 +8,7 @@ Setup Instructions
 Usage
 License
 Project Overview
-The project uses the MobileNet SSD model to detect objects in an image. The model is trained on the VOC dataset and can recognize various classes such as "dog," "cat," "car," and more. The project uses OpenCV's deep learning module to load the model, perform detection, and annotate the detected objects in the image.
+This project uses the MobileNet SSD model to detect objects in images. The model is trained on the VOC dataset and can recognize various classes such as "dog," "cat," "car," and more. OpenCV’s deep learning module is employed to load the model, perform detection, and annotate the detected objects in the image.
 
 Prerequisites
 Ensure you have the following installed:
@@ -24,15 +22,13 @@ Copy code
 pip install opencv-python
 Setup Instructions
 Clone the Repository
-
 Clone this repository to your local machine:
 
 sh
 Copy code
 git clone https://github.com/Mohammed-Faazil-16/Objection_Detection.git
-cd object-detection-mobilenet-ssd
+cd Objection_Detection
 Download Model Files
-
 Download the MobileNet SSD model files:
 
 Prototxt File: MobileNetSSD_deploy.prototxt
@@ -40,8 +36,7 @@ Caffemodel File: MobileNetSSD_deploy.caffemodel
 Place these files in the model directory.
 
 Image File
-
-Add an image to be processed in the images directory. Ensure the image is named room_people.png or update the script to match the image file name.
+Add an image to be processed in the images directory. Ensure the image is named room_people.png or update the script to match your image file name.
 
 Usage
 Run the script to perform object detection:
@@ -58,3 +53,4 @@ The script will read the image, perform object detection, and display the annota
 
 License
 This project is licensed under the MIT License. See the LICENSE file for details.
+
