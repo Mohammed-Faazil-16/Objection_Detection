@@ -71,7 +71,7 @@ def object_detection(image_path):
     cv2.destroyAllWindows()
 
 
-folder_path = r'C:\Desktop\codeclause_internship\object_detection\images'
+folder_path = r'C:\Desktop\codeclause_internship\object_detection\images' # your folder of images path should be given....
 
 for filename in os.listdir(folder_path):
         file_path = os.path.join(folder_path, filename)
